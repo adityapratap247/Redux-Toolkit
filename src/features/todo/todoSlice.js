@@ -14,7 +14,7 @@
                     task: action.payload, // is se humare pas task aajayega
                     isDone: false,
                 }   
-                state.todos.push(newTodo); // state.todos mtlb state ke andr todos ko access kiya
+                state.todos.push(newTodo); // direct mutation // state.todos mtlb state ke andr todos ko access kiya or new todo ko push kardiya
             }
         }
     })
