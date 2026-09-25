@@ -27,4 +27,7 @@
                 })
             }
         }
-    })
+    });
+
+    export const {addTodo, deleteTodo, markAsDone } = todoSlice.actions; // jo humare reducer functions hote hai toolkit unke liye action creators generate kr deta hai 
+    export default todoSlice.reducer;
