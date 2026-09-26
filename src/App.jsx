@@ -2,11 +2,14 @@ import Todo from './components/Todo';
 import './App.css';
 import { Provider } from 'react-redux';
 import { store } from './app/store';
+import AddForm from './components/AddForm';
 
 function App() {
   return (
     <Provider store={store}>
+      <AddForm />
       <Todo />
+
     </Provider>
   );
 }
